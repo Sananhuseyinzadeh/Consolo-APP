@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.App\\FinalApp.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.App\\FinalApp.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.App\\FinalApp.App.csproj",
+        "projectName": "FinalApp.App",
+        "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.App\\FinalApp.App.csproj",
+        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Services\\FinalApp.Service.csproj": {
+                "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Services\\FinalApp.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Data\\FinalApp.Data.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Data\\FinalApp.Data.csproj",
+        "projectName": "FinalApp.Data",
+        "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Data\\FinalApp.Data.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Services\\FinalApp.Service.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Services\\FinalApp.Service.csproj",
+        "projectName": "FinalApp.Service",
+        "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Services\\FinalApp.Service.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Data\\FinalApp.Data.csproj": {
+                "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\Final.Data\\FinalApp.Data.csproj"
+              },
+              "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj": {
+                "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj",
+        "projectName": "FinalApp.Core",
+        "projectPath": "C:\\Users\\Acer\\source\\repos\\Final.App\\FinalApp.Core\\FinalApp.Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}
